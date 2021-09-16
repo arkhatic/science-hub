@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&display=swap');
+
+$mainColor: #7a7efa;
+$backgroundDark: #FFF;
+$textColor: #000;
+$mainFont: "Fira Sans";
+
+:root {
+    --main-color: #979bff;
+    --background-dark: #000;
+    --main-font: "Fira Sans";
+    --text-color: #FFF;
+}
+
+* {
+    transition: all .3s;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, span, label {
+    color: $textColor;
+    font-family: $mainFont;
+}

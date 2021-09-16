@@ -1,0 +1,43 @@
+.cardTop {
+    position: inherit;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #000;
+    background: transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+
+    .card {    
+        display: grid;
+        grid-template-areas: "image" "title" "descr";
+        gap: 20px;
+    
+        img {
+            $imageHeight: 120px;
+            object-fit: cover;
+            width: 100%;
+            height: $imageHeight !important;
+            min-height: $imageHeight !important;
+            max-height: $imageHeight !important;
+            grid-area: image;
+        }
+        h1 {
+            grid-area: title;
+            
+        }
+        h2 { 
+            grid-area: descr;
+            font-size: 1.4rem;
+        }
+    }
+}
+.cardTop:hover {
+    border-color: var(--main-color);
+    border-radius: 30px;
+    h1, h2 {
+        color: var(--main-color);
+    }
+}
+
