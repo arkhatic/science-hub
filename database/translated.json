@@ -1,0 +1,46 @@
+{
+    "responseData": {
+        "translatedText": "Aluminium",
+        "match": 0.96
+    },
+    "quotaFinished": false,
+    "mtLangSupported": null,
+    "responseDetails": "",
+    "responseStatus": 200,
+    "responderId": "91",
+    "exception_code": null,
+    "matches": [
+        {
+            "id": "424313363",
+            "segment": "ALUMINIO",
+            "translation": "Aluminium",
+            "source": "pt-PT",
+            "target": "en-GB",
+            "quality": "63",
+            "reference": null,
+            "usage-count": 1,
+            "subject": "All",
+            "created-by": "Wikipedia",
+            "last-updated-by": "Wikipedia",
+            "create-date": "2011-05-26 15:28:55",
+            "last-update-date": "2011-05-26 15:28:55",
+            "match": 0.96
+        },
+        {
+            "id": "503807754",
+            "segment": "ALUMINIO",
+            "translation": "ALUMINUM",
+            "source": "pt-BR",
+            "target": "en-US",
+            "quality": "74",
+            "reference": null,
+            "usage-count": 1,
+            "subject": "All",
+            "created-by": "MateCat",
+            "last-updated-by": "MateCat",
+            "create-date": "2018-03-19 21:12:51",
+            "last-update-date": "2018-03-19 21:12:51",
+            "match": 0.95
+        }
+    ]
+}

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import style from '../styles/pages/home.module.scss';
 import Card from '../components/card';
 import image from '../public/images/profile.jpg';
-import apps from '../database';
+import { apps } from '../database';
 
 export default function App() {
     let els: JSX.Element[] = [];
@@ -13,6 +13,11 @@ export default function App() {
 
     return (
         <div className={style.container}>
+            <Head>
+                <title>Science Hub</title>
+                <meta name='viewport' content='initial-scale=1.0 width=device-width' />
+            </Head>
+
             <div className={style.titleContainer}>
                 <div className={style.title}>
                     <h1>Boas vindas ao <span>Science Hub</span></h1>

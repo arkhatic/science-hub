@@ -1,0 +1,110 @@
+.overlay {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 1vh;
+    right: 1vw;
+    border-radius: 10px;
+    padding: 3vh 2vw;
+    // left: 0;
+    width: 94vw;
+    height: 92vh;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+        color: var(--main-color);
+    }
+
+    button {
+        font-family: var(--main-font);
+        background: transparent;
+        border: none;
+        color: var(--main-color);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    h1:hover, button:hover {
+        color: white;
+    }
+}
+
+.content { display: flex; }
+
+.sideContent {
+    margin: 20px 0;
+    width: 30%;
+    img {
+        width: 100%;
+        height: 40vh;
+        border-radius: 1px;
+    }
+
+    p {
+        background-color: #181717;
+        border-radius: 1px;
+        padding: 4vh;
+        margin-top: 10px;
+        overflow-y: scroll;
+        max-height: 32vh;
+    }
+
+    p::-webkit-scrollbar { width: 10px; }
+    p::-webkit-scrollbar-track { background-color: #0e0d0d;}
+    p::-webkit-scrollbar-thumb { background: var(--main-color); }
+    
+
+    h1, h2, li, h3, h4, p {
+        color: white;
+        font-family: var(--main-font);
+    }
+}
+.undefinedImage { filter: invert(100%); }
+
+.innerContent {
+    margin: 20px 20px 0 20px;
+    border-left: 1px solid white;
+    padding: 0 20px;
+    width: 60%;
+    overflow-y: auto;
+    height: 82vh;
+
+    h1, h2, h3, h4, li, ul, label, p, summary, details {
+        color: white;
+        font-family: var(--main-font);
+    }
+
+    details span {
+        color: var(--main-color);
+    }
+
+    details ul {
+        list-style-type: '—  ';
+        margin-left: 50px;
+        margin-top: 7px;
+    }
+    details p {
+        margin-left: 30px;
+        margin-top: 7px;
+    }
+    summary {
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    details {
+        background-color: #181717;
+        padding: 10px 20px;
+        border-radius: 3px;
+    }
+    details + details {
+        margin-top: 10px;
+    }
+}
+.innerContent::-webkit-scrollbar { width: 10px; }
+.innerContent::-webkit-scrollbar-track { background-color: #0e0d0d;}
+.innerContent::-webkit-scrollbar-thumb { background: var(--main-color); }

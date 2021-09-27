@@ -1,0 +1,19 @@
+$red: #BF616A;
+$orange: #D08770;
+$yellow: #EBCB8B;
+$green: #A3BE8C;
+$purple: #B48EAD;
+
+$blueGreen: #8FBCBB;
+$cyan: #88C0D0;
+$lightBlue: #81A1C1;
+$blue: #5E81AC;
+
+.row, .row7 { max-height: 64px; }
+.row7 { margin-top: 20px; }
+.periodicTable { 
+    // margin-top: 10px;
+    position: fixed;
+    width: 100vw;
+}
+.tableContent { width: 90vw; margin: 0 6vw; }

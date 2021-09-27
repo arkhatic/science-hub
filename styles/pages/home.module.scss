@@ -1,15 +1,18 @@
 .titleContainer {
-    background-color: #000;
+    background-image: url('../../public/images/earth.jpg');
+    background-size: cover;
+    background-position: right;
+    background-attachment: scroll;
     height: 80vh;
     display: flex;
-    justify-content: center;
     align-items: center;
 
     .title { 
+        width: 80vh;
+        margin-left: 50px;
         text-align: center; 
         h1 { font: { weight: 800; size: 4rem; } }
         p  { font: { weight: 800; size: 1.2rem; } }
-
         h1, p { color: white; }
         h1 span { color: var(--main-color); }
     }
@@ -30,13 +33,11 @@
 }
 
 .dashboardContentInherit { 
-    margin: 10px 0 20px 0;  
+    margin: 10px 0 20px 0; 
+
     .dashboardContent {
-        justify-content: center;
-        display: grid;
-        gap: 40px;
-        grid-template-columns: repeat(auto-fit, 400px);
-        grid-template-rows: repeat(20vw);
+        width: 80vh;
+        margin: 0 10vh;
     }
 }
 

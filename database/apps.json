@@ -1,16 +1,14 @@
 {
-    "apps": [
+    "app": [
         {
             "app": "tabela-periodica",
             "appName": "Tabela Periódica",
-            "description": "Uma tabela periódica interativa.",
-            "image": "https://conhecimentocientifico.r7.com/wp-content/uploads/2019/04/tabela-periodica-o-que-e-funcao-historia-elementos-familias-1-1.jpg"
+            "description": "uma tabela periódica interativa;"
         },
         {
             "app": "sorting-alg",
             "appName": "Algoritmos de Ordenação",
-            "description": "Veja alguns gráficos de ordenação de arrays em tempo real.",
-            "image": "https://i.ytimg.com/vi/ZZuD6iUe3Pc/maxresdefault.jpg"
+            "description": "gráficos de ordenação de arrays em tempo real;"
         }
     ]
 }

@@ -1,0 +1,38 @@
+$squareSize: 64px;
+
+.square {
+    width: $squareSize;
+    min-height: $squareSize;
+    max-height: $squareSize;
+    display: inline-block;
+
+    cursor: pointer;
+
+    .innerText {
+        margin: 0;
+        max-height: 40px;
+        position: absolute;
+        padding: 0;
+
+        h2, h2, p {
+            width: $squareSize;
+        }
+
+        h1 { font-size: 25px; }
+        h2, h1 { text-align: center; }
+        p { font-size: 11px; font-weight: 400; }
+        h2 { font-size: 9px; }
+    }
+}
+
+.square:hover {
+    filter: brightness(80%);
+    transition: all .0s;
+}
+
+.emptySquare {
+    width: $squareSize;
+    height: $squareSize;
+    display: inline-block;
+    background-color: transparent;
+}

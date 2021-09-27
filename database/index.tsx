@@ -1,2 +1,4 @@
-import apps from './apps.json';
-export default apps.apps;
+import el from './apps.json';
+import elements from './periodicTable.json';
+const apps = el.app;
+export { apps, elements };

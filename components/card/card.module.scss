@@ -1,43 +1,38 @@
 .cardTop {
-    position: inherit;
-    width: 400px;
-    height: 300px;
-    border: 2px solid #000;
-    background: transparent;
-    border-radius: 20px;
-    overflow: hidden;
-    cursor: pointer;
-    text-align: center;
+    width: max-content;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #000;
 
-    .card {    
-        display: grid;
-        grid-template-areas: "image" "title" "descr";
-        gap: 20px;
-    
-        img {
-            $imageHeight: 120px;
-            object-fit: cover;
-            width: 100%;
-            height: $imageHeight !important;
-            min-height: $imageHeight !important;
-            max-height: $imageHeight !important;
-            grid-area: image;
-        }
+    div {
+        display: flex;
         h1 {
-            grid-area: title;
-            
+            margin-right: 15px;
+            font-size: 30px;
         }
-        h2 { 
-            grid-area: descr;
-            font-size: 1.4rem;
+        h2 {
+            // margin-top: 2px;
+            font-size: 27px;
+            // line-height: 8px;
+            font-family: 'JetBrains Mono';
         }
     }
 }
+
+.cardTop > * {
+    cursor: pointer;
+}
+
+.cardTop + .cardTop {
+    margin-top: 10px
+}
+
 .cardTop:hover {
-    border-color: var(--main-color);
-    border-radius: 30px;
-    h1, h2 {
+    border-bottom: 2px solid var(--main-color);
+    h1 {
         color: var(--main-color);
+    }
+    h2 {
+        color: gray;
     }
 }
 
