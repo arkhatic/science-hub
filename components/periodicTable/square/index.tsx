@@ -10,6 +10,11 @@ export default function Square({ el, filled, color }) {
         setClicked(1);
     }
 
+    function squareSize(): number {
+        let height = window.innerHeight - 100;
+        return height / 10;
+    }
+
     if (filled === 'true') {
         return (
             <>
