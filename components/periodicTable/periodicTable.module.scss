@@ -13,16 +13,6 @@ $blue: #5E81AC;
 .row7 { margin-top: 20px; }
 .periodicTable { 
     // margin-top: 10px;
-    position: fixed;
-    width: 100vw;;
+    // position: fixed;
+    width: 100vw;
 }
-.tableContent { 
-    margin: 0 auto; 
-    position: relative; 
-    max-height: 90vh;
-    overflow-y: scroll;
-    width: fit-content;
-}
-.tableContent::-webkit-scrollbar { width: 10px; }
-.tableContent::-webkit-scrollbar-track { background-color: #FFF;}
-.tableContent::-webkit-scrollbar-thumb { background: var(--main-color); }
