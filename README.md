@@ -3,7 +3,7 @@
 
 I want it to be from a versitile app for college students to a cool web app to just explore and have fun; as well at being a nice portifolio for me. That's **Science Hub**!
 
-![science hub page landing](assets\science-hub-page-landing.png)
+![](assets\page-landing.png)
 
 ## Available apps:
 
